@@ -2,13 +2,13 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "pastemorphic-preview",
+      "name": "lightmorphic-paste-preview",
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8731", "--directory", "chrome"],
       "port": 8731
     },
     {
-      "name": "pastemorphic-site",
+      "name": "lightmorphic-paste-site",
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8732", "--directory", "docs"],
       "port": 8732
