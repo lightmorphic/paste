@@ -24,30 +24,6 @@
         "docs"
       ],
       "port": 8732
-    },
-    {
-      "name": "popup-shot",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8733",
-        "--directory",
-        "/tmp/claude-1000/-home-charlie-Claude-Repos-paste/e7df8df0-8c5c-4dc3-ae35-3f265d24ae31/scratchpad/shot"
-      ],
-      "port": 8733
-    },
-    {
-      "name": "sweep",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8734",
-        "--directory",
-        "/tmp/claude-1000/-home-charlie-Claude-Repos-paste/e7df8df0-8c5c-4dc3-ae35-3f265d24ae31/scratchpad/site"
-      ],
-      "port": 8734
     }
   ]
 }
